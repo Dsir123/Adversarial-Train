@@ -32,7 +32,7 @@ Baseline | 90.84%	| 90.82%	| 90.81%	| 90.82%	| 5700	| 1min53s
 
 * 理解论文ICLR2020中的算法思想并读代码
 
-* 参考一些博客关于NLP中采用对抗训练的介绍，比如https://wmathor.com/index.php/archives/1537/，有关于FGM、PGD的实现
+* 参考一些博客关于NLP中采用对抗训练的介绍，比如https://wmathor.com/index.php/archives/1537/， 有关于FGM、PGD的实现
 
 * 结合ICLR2020实现FGSM、Free的代码部分，以及NLP中扰动实现的一般策略，针对FGSM和FreeAT分别实验了两种对抗训练策略，分为对全局Embedding扰动或者对局部Embedding扰动，其中局部Embedding扰动更接近ICLR2020的实现方式，因为是根据扰动delta的梯度来更新delta
 
