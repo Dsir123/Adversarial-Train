@@ -2,7 +2,7 @@
 
 ## 实验任务
 
-理解论文ICLR2020《FAST IS BETTER THAN FREE: REVISITING ADVERSARIAL TRAINING》里的对抗训练方法PGD、“Free”、FGSM，并应用到TextCNN中，对比Baseline及引入这三种对抗训练方法后的性能，评价指标包括Precision、Recall、F1-score、Acc、Early stop时的迭代次数及用时。
+理解论文[ICLR2020](https://arxiv.org/abs/2001.03994)《FAST IS BETTER THAN FREE: REVISITING ADVERSARIAL TRAINING》里的对抗训练方法PGD、“Free”、FGSM，并应用到TextCNN中，对比Baseline及引入这三种对抗训练方法后的性能，评价指标包括Precision、Recall、F1-score、Acc、Early stop时的迭代次数及用时。
 
 ## 实验结果
 
@@ -30,9 +30,9 @@ Baseline | 90.84%	| 90.82%	| 90.81%	| 90.82%	| 5700	| 1min53s
 
 ## 实验复现流程
 
-* 理解论文ICLR2020中的算法思想并读代码
+* 理解论文ICLR2020中的算法思想并读[代码](https://github.com/locuslab/fast_adversarial)
 
-* 参考一些博客关于NLP中采用对抗训练的介绍，比如https://wmathor.com/index.php/archives/1537/， 有关于FGM、PGD的实现
+* 参考一些[博客](https://wmathor.com/index.php/archives/1537/)关于NLP中采用对抗训练的介绍，里面有关于FGM、PGD的实现
 
 * 结合ICLR2020实现FGSM、Free的代码部分，以及NLP中扰动实现的一般策略，针对FGSM和FreeAT分别实验了两种对抗训练策略，分为对全局Embedding扰动或者对局部Embedding扰动，其中局部Embedding扰动更接近ICLR2020的实现方式，因为是根据扰动delta的梯度来更新delta
 
