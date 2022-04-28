@@ -2,7 +2,7 @@
 
 ## 实验任务
 
-理解论文[ICLR2020](https://arxiv.org/abs/2001.03994)《FAST IS BETTER THAN FREE: REVISITING ADVERSARIAL TRAINING》里的对抗训练方法PGD、“Free”、FGSM，并应用到TextCNN中，对比Baseline及引入这三种对抗训练方法后的性能，评价指标包括Precision、Recall、F1-score、Acc、Early stop时的迭代次数及用时。
+理解论文[ICLR2020](https://arxiv.org/abs/2001.03994)《FAST IS BETTER THAN FREE: REVISITING ADVERSARIAL TRAINING》里的对抗训练方法PGD、“Free”、FGSM，并应用到[TextCNN](https://github.com/649453932/Chinese-Text-Classification-Pytorch)中，对比Baseline及引入这三种对抗训练方法后的性能，评价指标包括Precision、Recall、F1-score、Acc、Early stop时的迭代次数及用时。
 
 ## 实验结果
 
